@@ -46,3 +46,9 @@ img {
     display: flex;
     justify-content: space-between;
 }
+
+.wrapper {
+    max-width: 1100pex;
+    margin: 0 auto;
+    padding: 0 4%;
+}
