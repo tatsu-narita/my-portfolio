@@ -22,6 +22,11 @@ img {
 
 /* HEADER
 ------------------------- */
+.logo {
+    width: 210px;
+    margin-top: 14px;
+}
+
 .main-nav {
     display: flex;
     font-size: 1.25em;
