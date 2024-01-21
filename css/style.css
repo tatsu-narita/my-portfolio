@@ -65,15 +65,18 @@ img {
     margin-top: 10%;
 }
 
-/* 見出し */
+/* 見出し
+------------------------- */
 .page-title {
     font-size: 4rem;
     font-family: 'Philosopher', serif;
     text-transform: uppercase;
     font: normal;
+    color: #432;
 }
 
-/* HOME背景 */
+/* HOME背景
+------------------------- */
 .big-bg {
     background-size: cover;
     background-position: center top;
@@ -86,5 +89,15 @@ img {
 
 #home .page-title {
     text-transform: none;
-    color: #432;
+}
+
+/* ABOUT
+------------------------- */
+#about {
+    background-image: url(../images/pencils-762555_1280.jpg);
+    height: 270px;
+    margin-bottom: 40px;
+}
+#about .page-title {
+    text-align: center;
 }
