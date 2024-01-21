@@ -23,7 +23,7 @@ img {
 /* HEADER
 ------------------------- */
 .logo {
-    width: 210px;
+    width: 110px;
     margin-top: 14px;
 }
 
@@ -67,7 +67,7 @@ img {
 
 /* 見出し */
 .page-title {
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: 'Philosopher', serif;
     text-transform: uppercase;
     font: normal;
@@ -86,4 +86,5 @@ img {
 
 #home .page-title {
     text-transform: none;
+    color: #432;
 }
