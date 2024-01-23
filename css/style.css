@@ -98,8 +98,25 @@ img {
     height: 270px;
     margin-bottom: 40px;
 }
+
 #about .page-title {
     text-align: center;
+}
+
+.about-contents {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+/* メイン */
+article {
+    width: 74%;
+}
+
+/* サイドバー */
+aside {
+    width: 22%;
 }
 
 /* footer
