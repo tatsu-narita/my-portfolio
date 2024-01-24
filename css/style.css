@@ -114,6 +114,12 @@ article {
     width: 74%;
 }
 
+.post-info {
+    position: relative;
+    padding-top: 4px;
+    margin-bottom: 40px;
+}
+
 /* サイドバー */
 aside {
     width: 22%;
