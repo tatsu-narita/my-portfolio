@@ -109,6 +109,10 @@ img {
     margin-bottom: 50px;
 }
 
+.post-title {
+    font-family: "YU Mincho";
+}
+
 /* メイン */
 article {
     width: 74%;
