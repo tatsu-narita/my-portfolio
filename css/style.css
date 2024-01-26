@@ -124,6 +124,10 @@ article {
     margin-bottom: 40px;
 }
 
+ul {
+    list-style: none;
+}
+
 /* サイドバー */
 aside {
     width: 22%;
