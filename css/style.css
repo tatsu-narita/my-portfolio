@@ -110,12 +110,19 @@ img {
 }
 
 .post-title {
-    font-family: "YU Mincho";
+    font-family: "YU Mincho", "YuMincho", serif;
+    font-size: 2rem;
+    font-weight: normal;
+    margin-left: 120px;
 }
 
 /* メイン */
 article {
     width: 74%;
+}
+
+article p {
+    margin-bottom: 1rem;
 }
 
 .post-info {
