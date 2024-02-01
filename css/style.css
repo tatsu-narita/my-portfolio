@@ -219,4 +219,21 @@ footer p {
     aside {
         width: 100%;
     }
+
+    #about .page-title {
+        margin-top: 30px;
+    }
+
+    aside {
+        margin-top: 60px;
+    }
+
+    .post-info {
+        margin-bottom: 30px;
+    }
+
+    .post-title {
+        font-size: 1.375rem;
+        margin-left: 80px;
+    }
 }
