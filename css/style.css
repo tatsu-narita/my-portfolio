@@ -119,11 +119,11 @@ img {
 /* メイン */
 article {
     width: 74%;
+    color: black;
 }
 
 article p {
     margin-bottom: 1rem;
-    color: black;
 }
 
 .post-info {
