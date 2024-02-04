@@ -117,12 +117,12 @@ img {
 }
 
 /* メイン */
-article {
+section {
     width: 74%;
     color: black;
 }
 
-article p {
+section p {
     margin-bottom: 1rem;
 }
 
@@ -216,7 +216,7 @@ footer p {
         flex-direction: column;
     }
 
-    article,
+    section,
     aside {
         width: 100%;
     }
