@@ -4,6 +4,7 @@
 ------------------------- */
 html {
     font-size: 100%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -22,12 +23,13 @@ img {
 
 /* HEADER
 ------------------------- */
-.logo {
+
+#home .logo {
     width: 110px;
     margin-top: 14px;
 }
 
-.main-nav {
+#home .main-nav {
     display: flex;
     font-size: 1.25em;
     text-transform: uppercase;
@@ -35,24 +37,24 @@ img {
     list-style: none;
 }
 
-.main-nav li {
+#home .main-nav li {
     margin-left: 36px;
 }
 
-.main-nav a {
+#home .main-nav a {
     color: #432;
 }
 
-.main-nav a:hover {
+#home .main-nav a:hover {
     color: #0bd;
 }
 
-.page-header {
+#home .page-header {
     display: flex;
     justify-content: space-between;
 }
 
-.wrapper {
+#home .wrapper {
     max-width: 1100pex;
     margin: 0 auto;
     padding: 0 4%;
@@ -93,82 +95,13 @@ img {
 
 /* ABOUT
 ------------------------- */
-#about {
-    background-image: url(../images/book-2170910_1280.jpg);
-    height: 270px;
-    margin-bottom: 40px;
-}
-
-#about .page-title {
-    text-align: center;
-}
-
-.about-contents {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 50px;
-}
-
-.post-title {
-    font-family: "YU Mincho", "YuMincho", serif;
-    font-size: 2rem;
-    font-weight: normal;
-    margin-left: 120px;
-}
-
-/* メイン */
-section {
-    width: 74%;
-    color: black;
-}
-
-section p {
-    margin-bottom: 1rem;
-}
-
-.post-info {
-    position: relative;
-    padding-top: 4px;
-    margin-bottom: 40px;
-}
-
-ul {
-    list-style: none;
-}
-
-/* サイドバー */
-aside {
-    width: 22%;
-}
-
-.sub-title {
-    font-size: 1.375rem;
-    padding: 0 8px 8px;
-    border-bottom: 2px #0bd solid;
-    font-weight: normal;
-}
-
-aside p {
-    padding: 12px 10px;
-}
-
-.sub-menu {
-    margin-bottom: 60px;
-    list-style: none;
-}
-
-.sub-menu li {
-    border-bottom: 1px #ddd solid;
-}
-
-.sub-menu a {
-    color: #432;
-    padding: 10px;
-    display: block;
-}
-
-.sub-menu a:hover {
-    color: #0bd;
+#about header {
+    background: #333;
+    padding: 1rem 0;
+    /* 固定表示 */
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 /* footer
