@@ -95,7 +95,7 @@ img {
 
 /* ABOUT
 ------------------------- */
-#about header {
+.second-header {
     background: #333;
     padding: 1rem 0;
     /* 固定表示 */
