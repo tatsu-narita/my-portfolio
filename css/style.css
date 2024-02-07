@@ -104,6 +104,11 @@ img {
     z-index: 1;
 }
 
+#hero {
+    background-color: #4db1ec;
+    background-repeat: no-repeat;
+}
+
 /* footer
 ------------------------- */
 footer {
