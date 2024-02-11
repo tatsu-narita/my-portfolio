@@ -131,6 +131,13 @@ img {
     100% { background-color: var(--light-blue); }
 }
 
+#iam {
+    background-image: linear-gradient(var(--light-green), var(--green));
+    padding: 7rem 0;
+    -webkit-clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+    clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+}
+
 /* footer
 ------------------------- */
 footer {
