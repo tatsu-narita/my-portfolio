@@ -9,7 +9,6 @@ html {
 
 body {
     font-family: "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
-    line-height: 1.7;
     color: #437;
 }
 
@@ -24,6 +23,15 @@ img {
 h2 {
     font-size: 3rem;
     margin-bottom: 2rem;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+p {
+    line-height: 1.7;
 }
 
 :root {
