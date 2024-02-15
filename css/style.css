@@ -34,6 +34,13 @@ p {
     line-height: 1.7;
 }
 
+.wrapper {
+    max-width: 800px;
+    width: 100px;
+    margin: 0 auto;
+    padding:  0 1rem;
+}
+
 :root {
     --light-blue: #4db1ec;
     --blue: #1665cc;
