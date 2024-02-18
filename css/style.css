@@ -57,44 +57,40 @@ p {
 /* HEADER
 ------------------------- */
 
-#home {
-    
-    .logo {
-        width: 110px;
-        margin-top: 14px;
-    }
+#home .logo {
+    width: 110px;
+    margin-top: 14px;
+}
 
-    .main-nav {
-        display: flex;
-        font-size: 1.25em;
-        text-transform: uppercase;
-        margin-top: 34px;
-        list-style: none;
-    }
-    
-    .main-nav li {
-        margin-left: 36px;
-    }
-    
-    .main-nav a {
-        color: #432;
-    }
-    
-    .main-nav a:hover {
-        color: #0bd;
-    }
-    
-    .page-header {
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .wrapper {
-        max-width: 1100pex;
-        margin: 0 auto;
-        padding: 0 4%;
-    }
-    
+#home .main-nav {
+    display: flex;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+
+#home .main-nav li {
+    margin-left: 36px;
+}
+
+#home .main-nav a {
+    color: #432;
+}
+
+#home .main-nav a:hover {
+    color: #0bd;
+}
+
+#home .page-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#home .wrapper {
+    max-width: 1100pex;
+    margin: 0 auto;
+    padding: 0 4%;
 }
 
 /* HOME
@@ -156,7 +152,7 @@ p {
 }
 
 .second-header {
-    .main-nav {
+    main-nav {
         background: var(--grey);
         width: 0;
         position: absolute;
