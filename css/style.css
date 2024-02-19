@@ -9,7 +9,7 @@ html {
 
 body {
     font-family: "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
-    color: #437;
+    color: black;
 }
 
 a {
@@ -36,7 +36,7 @@ p {
 
 .wrapper {
     max-width: 800px;
-    width: 100px;
+    width: 100%;
     margin: 0 auto;
     padding:  0 1rem;
 }
@@ -142,6 +142,11 @@ p {
     justify-content: space-between;
 }
 
+.second-header a {
+    color: var(--white);
+    font-size: 1.5rem;
+}
+
 .btn-menu {
     position: absolute;
     top: 12px;
@@ -151,33 +156,29 @@ p {
     padding: .5rem 1rem;
 }
 
-.second-header {
-    main-nav {
-        background: var(--grey);
-        width: 0;
-        position: absolute;
-        z-index: 2;
-        top: 50px;
-        right: 0;
-        overflow: hidden;
-        transition: .5s;
-    }
-    
-    .main-nav li {
-        text-align: center;
-        margin: 2rem 0;
-    }
-    
-    .main-nav a {
-        display: block;
-    }
-    
-    .main-nav.open-menu {
-        width: 100%;
-    }
+.second-header .main-nav {
+    background: var(--grey);
+    width: 0;
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+    right: 0;
+    overflow: hidden;
+    transition: .5s;
 }
 
+.second-header .main-nav li {
+    text-align: center;
+    margin: 2rem 0;
+}
 
+.second-header .main-nav a {
+    display: block;
+}
+
+.second-header .main-nav .open-menu {
+    width: 100%;
+}
 
 /* ABOUT
 ------------------------- */
@@ -210,8 +211,13 @@ p {
 }
 
 #hero h1 {
-    font-size: 3.5rem;
+    font-size: 5.5rem;
     margin-bottom: 1.5rem;
+}
+
+#hero p {
+    text-align: center;
+    
 }
 
 #iam {
