@@ -248,9 +248,8 @@ p {
 }
 
 #iam .wrapper {
+    display: inline-block;
     text-align: left;
-    max-width: 800px;
-    margin: 0 auto;
 }
 
 /* footer
