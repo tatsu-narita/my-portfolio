@@ -155,7 +155,7 @@ p {
     padding: .5rem 1rem;
 }
 
-.second-header .main-nav {
+.main-nav {
     background: var(--grey);
     width: 0;
     position: absolute;
@@ -166,16 +166,16 @@ p {
     transition: .5s;
 }
 
-.second-header .main-nav li {
+.main-nav li {
     text-align: center;
     margin: 2rem 0;
 }
 
-.second-header .main-nav a {
+.main-nav a {
     display: block;
 }
 
-.second-header .main-nav .open-menu {
+.main-nav .open-menu {
     width: 100%;
 }
 
