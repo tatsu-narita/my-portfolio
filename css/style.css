@@ -175,7 +175,7 @@ p {
     display: block;
 }
 
-.main-nav .open-menu {
+.main-nav.open-menu {
     width: 100%;
 }
 
@@ -269,6 +269,9 @@ footer p {
 ------------------------- */
 @media (max-width: 600px) {
     /* Home */
+    .page-title {
+        font-size: 2.5rem;
+    }
     .home-nav {
         font-size: 1rem;
         margin-top: 10px;
@@ -290,9 +293,6 @@ footer p {
 }
 
 @media (min-width: 600px) {
-    .page-title {
-        font-size: 2.5rem;
-    }
 
     /* Common */
     h2 {
