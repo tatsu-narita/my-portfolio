@@ -61,7 +61,7 @@ p {
     margin-top: 14px;
 }
 
-#home .home-nav {
+.home-nav {
     display: flex;
     font-size: 1.25em;
     text-transform: uppercase;
@@ -69,19 +69,19 @@ p {
     list-style: none;
 }
 
-#home .home-nav li {
+.home-nav li {
     margin-left: 36px;
 }
 
-#home .home-nav a {
+.home-nav a {
     color: #432;
 }
 
-#home .home-nav a:hover {
+.home-nav a:hover {
     color: #0bd;
 }
 
-#home .page-header {
+.page-header {
     display: flex;
     justify-content: space-between;
 }
@@ -268,21 +268,16 @@ footer p {
 /* モバイル版
 ------------------------- */
 @media (max-width: 600px) {
-    .page-title {
-        font-size: 2.5rem;
-    }
-
-    /* HEADER */
-    .main-nav {
+    /* Home */
+    .home-nav {
         font-size: 1rem;
         margin-top: 10px;
     }
 
-    .main-nav li {
+    .home-nav li {
         margin: 0 20px;
     }
 
-    /* HOME */
     .home-content {
         margin-top: 20%;
     }
@@ -291,4 +286,43 @@ footer p {
         flex-direction: column;
         align-items: center;
     }
+
+}
+
+@media (min-width: 600px) {
+    .page-title {
+        font-size: 2.5rem;
+    }
+
+    /* Common */
+    h2 {
+        font-size: 5rem;
+    }
+
+    a:hover {
+        color: var(--blue);
+        transition: .3s;
+    }
+
+    /* Second-header */
+    .btn-menu {
+        display: none;
+    }
+
+    .main-nav {
+        width: 100%;
+        position: static;
+        display: flex;
+    }
+
+    .main-nav li {
+        margin: 0 0 0 1.5rem;
+    }
+
+    /* ABOUT */
+    /* Hero */
+    #hero h1 {
+        font-size: 6.875rem;
+    }
+
 }
