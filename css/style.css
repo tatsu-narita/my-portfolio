@@ -169,6 +169,7 @@ p {
 .main-nav li {
     text-align: center;
     margin: 2rem 0;
+    list-style: none;
 }
 
 .main-nav a {
