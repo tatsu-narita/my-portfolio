@@ -38,7 +38,7 @@ var skillChart = new Chart(ctx, {
         datasets: [
             {
                 //項目順
-                data: [3,2,2,2,2],
+                data: [3,3,3,3,2],
                 //グラフラベル
                 label: "使用可能言語/フレーム・ライブラリ",
                 //背景色
