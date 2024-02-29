@@ -1,33 +1,3 @@
-/*
-var ctx = document.getElementById('skillChart').getContext('2d');
-var myRadarChart = new Chart(ctx, {
-    type: 'radar',
-    data: {
-        //データ項目
-        labels: ["HTML/CSS", "JavaScript", "React", "Next.js", "PHP"],
-        datasets: [{
-            label: 'My Skills',
-            data: [80, 60, 75, 85, 70],
-            backgroundColor: 'rgba(255, 99, 132, 0.2)',
-            borderColor: 'rgba(255, 99, 132, 1)',
-            borderWidth: 1
-        }]
-    },
-    options: {
-        scale: {
-            angleLines: {
-                display: false
-            },
-            ticks: {
-                suggestedMin: 0,
-                suggestedMax: 100
-            }
-        }
-    }
-});
-*/
-
-
 var ctx = document.getElementById("skillChart").getContext('2d');
 var skillChart = new Chart(ctx, {
     type: 'radar',
