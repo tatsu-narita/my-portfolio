@@ -239,7 +239,6 @@ p {
 
 /* I am a...
 ------------------------- */
-
 #iam {
     background-image: linear-gradient(var(--light-green), var(--green));
     padding: 7rem 0;
@@ -252,6 +251,41 @@ p {
     display: inline-block;
     text-align: left;
 }
+
+/* Skill
+------------------------- */
+.skillwrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#skill h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+#skill p {
+    margin-bottom: 1rem;
+}
+
+.explanation {
+    text-align: center;
+}
+
+.skill-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skill-list li {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
 
 /* footer
 ------------------------- */
