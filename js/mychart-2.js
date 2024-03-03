@@ -1,6 +1,6 @@
 
-var ctx = document.getElementById("skillChart-2").getContext('2d');
-var skillChart = new Chart(ctx, {
+var ctx2 = document.getElementById("skillChart-2").getContext('2d');
+var skillChart2 = new Chart(ctx2, {
     type: 'radar',
     data: {
         //データ項目
@@ -22,6 +22,7 @@ var skillChart = new Chart(ctx, {
         ]
     },
     options: {
+        responsive: false,
         scales: {
             r: {
                 //グラフの値
