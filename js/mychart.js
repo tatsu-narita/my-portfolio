@@ -21,6 +21,7 @@ var skillChart = new Chart(ctx, {
         ]
     },
     options: {
+        responsive: false,
         scales: {
             r: {
                 //グラフの値
