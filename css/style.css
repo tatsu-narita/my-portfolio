@@ -65,7 +65,7 @@ p {
     display: flex;
     font-size: 1.25em;
     text-transform: uppercase;
-    margin-top: 34px;
+    margin: 34px 50px 0 0;
     list-style: none;
 }
 
@@ -249,20 +249,25 @@ p {
 
 #iam .wrapper {
     display: inline-block;
+    margin: 0 auto;
+    width: 60%;
+}
+
+#iam p {
     text-align: left;
 }
 
 /* Skill
 ------------------------- */
-.skillwrapper {
+.skill-wrapper {
     display: flex;
     justify-content: space-around;
-    margin-top: 20px;
+    margin: 0 auto;
 }
 
 #skill h3 {
     font-size: 2rem;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
 }
 
 #skill p {
@@ -274,10 +279,8 @@ p {
 }
 
 .skill-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    margin: 0 auto;
+    width: 50%;
 }
 
 .skill-list li {
