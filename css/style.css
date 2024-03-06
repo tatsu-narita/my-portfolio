@@ -259,6 +259,10 @@ p {
 
 /* Skill
 ------------------------- */
+#skill {
+    margin-bottom: 2rem;
+}
+
 .skill-wrapper {
     display: flex;
     justify-content: space-around;
@@ -267,7 +271,7 @@ p {
 
 #skill h3 {
     font-size: 2rem;
-    margin: 2rem 0;
+    margin: 0 0 2rem 0;
 }
 
 #skill p {
@@ -289,7 +293,6 @@ p {
     text-align: left;
 }
 
-
 /* footer
 ------------------------- */
 footer {
@@ -305,7 +308,7 @@ footer p {
 
 /* モバイル版
 ------------------------- */
-@media (max-width: 600px) {
+@media (max-width: 750px) {
     /* Home */
     .page-title {
         font-size: 2.5rem;
@@ -313,6 +316,7 @@ footer p {
     .home-nav {
         font-size: 1rem;
         margin-top: 10px;
+        margin: 0 auto;
     }
 
     .home-nav li {
@@ -328,9 +332,24 @@ footer p {
         align-items: center;
     }
 
+    /*About*/
+    .skill-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #skillChart {
+        margin: 0 auto;
+    }
+
+    #skillChart-2 {
+        margin: 0 auto;
+    }
+
 }
 
-@media (min-width: 600px) {
+@media (min-width: 750px) {
 
     /* Common */
     h2 {
