@@ -4,7 +4,7 @@ var skillChart2 = new Chart(ctx2, {
     type: 'radar',
     data: {
         //データ項目
-        labels: ["Git/GitHuv", "Docker", "Teams", "Notion", "Figma/AdobePhotoshop"],
+        labels: ["Git/GitHuv", "Docker", "Teams", "Notion", "Figma"],
         //データ設定
         datasets: [
             {
