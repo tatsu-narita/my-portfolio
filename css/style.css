@@ -293,6 +293,16 @@ p {
     text-align: left;
 }
 
+/* works
+------------------------- */
+header video {
+    object-fit: cover;
+    object-position: center top;
+    opacity: var(--video-opacity);
+    width: 100vw;
+    height: 90vh;
+}
+
 /* footer
 ------------------------- */
 footer {
