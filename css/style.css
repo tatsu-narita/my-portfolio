@@ -106,7 +106,7 @@ p {
     font-family: 'Philosopher', serif;
     text-transform: uppercase;
     font: normal;
-    color: #432;
+    color: #fff;
 }
 
 /* HOME背景
@@ -117,7 +117,7 @@ p {
 }
 
 #home {
-    background-image: url(../images/cats-7272468_1280.png);
+    background-image: url(../images/pencils-762555_1280.jpg);
     min-height: 100vh;
 }
 
@@ -212,11 +212,12 @@ p {
 #hero h1 {
     font-size: 5.5rem;
     margin-bottom: 1.5rem;
+    color: #fff;
 }
 
 #hero p {
     text-align: center;
-    
+    color: #fff;
 }
 
 /* Profile
@@ -253,8 +254,12 @@ p {
     width: 60%;
 }
 
+#iam h2 {
+    color: #fff;
+}
 #iam p {
     text-align: left;
+    color: #fff;
 }
 
 /* Skill
@@ -299,6 +304,35 @@ header video {
     object-fit: cover;
     object-position: center top;
     opacity: var(--video-opacity);
+    width: 100vw;
+    height: 90vh;
+}
+
+/* works
+------------------------- */
+.top-wrapper {
+    position: relative;
+    margin-bottom: .5rem;
+}
+
+.works-text {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.top-wrapper video {
+    object-fit: cover;
+    object-position: center top;
+    opacity: var(--video-opacity);
+}
+
+.works-text,
+.top-wrapper video {
     width: 100vw;
     height: 90vh;
 }
