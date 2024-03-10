@@ -337,6 +337,13 @@ header video {
     height: 90vh;
 }
 
+.grid {
+    display: grid;
+    width: 94vw;
+    margin: 0 auto 3vw;
+    gap: 2vw;
+}
+
 /* footer
 ------------------------- */
 footer {
