@@ -448,4 +448,23 @@ footer p {
         font-size: 6.875rem;
     }
 
+    /* Grid */
+    .grid {
+        width: 80vw;
+        gap: 1vw;
+        grid-template-columns: repeat(3, 26vw); /* (80 - 2) / 3 */
+        grid-template-rows: repeat(3, 26vw);
+    }
+
+    .grid-item {
+        transition: .3s;
+    }
+
+    .grid-item:hover {
+        filter: grayscale(0);
+        box-shadow: 0 0 2rem rgba(0, 0, 0, .5);
+        transform: scale(1.1);
+        z-index: 3;
+        position: relative;
+    }
 }
