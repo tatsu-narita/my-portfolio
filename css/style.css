@@ -354,7 +354,7 @@ header video {
     height: 100%;
     object-fit: cover;
     object-position: left;
-    filter: grayscale(100%);
+    filter: drop-shadow(0 0 10px rgba(0,0,0,.6));
 }
 
 /* footer
@@ -458,6 +458,7 @@ footer p {
 
     .grid-item {
         transition: .3s;
+        filter: grayscale(100%);
     }
 
     .grid-item:hover {
