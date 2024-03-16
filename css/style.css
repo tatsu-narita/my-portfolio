@@ -357,6 +357,21 @@ header video {
     filter: drop-shadow(0 0 10px rgba(0,0,0,.6));
 }
 
+.box-1 {
+    padding: 0.5em 1em;
+    margin: 2em 5rem;
+    border: double 5px #333;
+}
+.box-1 p {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.box-list {
+    width: fit-content;
+    margin: auto;
+}
+
 /* footer
 ------------------------- */
 footer {
