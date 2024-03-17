@@ -367,15 +367,26 @@ header video {
 .box-1 {
     padding: 0.5em 1em;
     margin: 2em 7rem;
-    border: double 5px #333;
+
+    padding: 0.5em 1em;
+    color: #FFF;
+    background: #cdccc1;
+    border-bottom: solid 6px #8e8d85;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
 }
 
 .box-1 p{
     text-align: center;
 }
+
 .box-1 h4 {
     text-align: center;
     padding: 0.5rem;
+}
+
+.box-1 h5{
+    text-align: center;
 }
 
 .box-list {
