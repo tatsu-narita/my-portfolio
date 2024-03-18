@@ -394,6 +394,12 @@ header video {
     margin: auto;
 }
 
+/* contact
+------------------------- */
+.contact-form {
+    text-align: center
+}
+
 /* footer
 ------------------------- */
 footer {
