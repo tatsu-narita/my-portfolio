@@ -416,6 +416,7 @@ header video {
     display: flex;
     justify-content: space-between;
     text-align: center;
+    width: 100%;
 }
 
 #sns .sns-title {
@@ -430,6 +431,39 @@ header video {
 #sns .fa-brands {
     font-size: 250px;
     margin-top: 150px;
+}
+
+.inner {
+    max-width: 800px;
+    width: 97%;
+    margin: 0 auto;
+  }
+
+.box-2 {
+    width: 800px;
+    text-align: center;
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    border: solid 3px #333;
+    border-radius: 8px;
+}
+.box-2 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background:  #f5e2b7;
+    color: #333;
+    font-weight: bold;
+}
+.box-2 p {
+    text-align: left;
+    margin: 0; 
+    padding: 0;
 }
 /* footer
 ------------------------- */
