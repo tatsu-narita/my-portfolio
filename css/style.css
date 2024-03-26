@@ -434,21 +434,20 @@ header video {
 }
 
 .inner {
-    max-width: 700px;
+    max-width: 100%;
     width: 100%;
     margin: 0 auto;
 }
 
 .box-2 {
     text-align: center;
-    width: 700px;
+    width: 100%;
 }
 
 .box-3 {
-    width: 700px;
-    
+    width: 60%;
     position: relative;
-    margin: 2em 0;
+    margin: 2em auto;
     padding: 0.5em 1em;
     border: solid 3px #333;
     border-radius: 8px;
@@ -524,6 +523,32 @@ footer p {
         margin: 0 auto;
     }
 
+    /*Contact*/
+
+    .contact-img {
+        width: 100%;
+    }
+    .contact-wrapper {
+        width: 100%;
+    }
+    .contact-form {
+        width: 70%;
+    }
+
+    #sns .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sns-box {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .box-3 {
+        margin: 3em auto;
+    }
 }
 
 /* DESKTOP SIZE
