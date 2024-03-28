@@ -408,6 +408,11 @@ header video {
     width: 100%;
 }
 
+.contact-form h1 {
+    font-size: 4rem;
+    color: #FFF;
+}
+
 #sns {
     background: #f5e2b7;
     padding: 4% 0;
