@@ -1,7 +1,10 @@
-#　Narita's Portfolio
+# Narita's Portfolio
 
 ## 使用技術一覧
-<img src="https://camo.qiitausercontent.com/a0136d9306acf9f316956fa391f9aa514b14727a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4a6176615363726970742d3030303030302e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d4a617661536372697074266c6f676f436f6c6f723d463744463145">
+
+<img src="https://img.shields.io/badge/-Html5-E34F26.svg?logo=html5&style=plastic">
+<img src="https://img.shields.io/badge/-Css3-1572B6.svg?logo=css3&style=plastic">
+<img src="https://img.shields.io/badge/-Javascript-F7DF1E.svg?logo=javascript&style=plastic">
 
 ## 概要
 
