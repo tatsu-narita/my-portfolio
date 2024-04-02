@@ -4,12 +4,12 @@ var skillChart2 = new Chart(ctx2, {
     type: 'radar',
     data: {
         //データ項目
-        labels: ["Git/GitHuv", "Docker", "Teams", "Notion", "Figma"],
+        labels: ["Git/GitHub", "Docker", "Teams", "Notion", "Figma"],
         //データ設定
         datasets: [
             {
                 //項目順
-                data: [3,2,3,3,3],
+                data: [3,2,3,4,3],
                 //グラフラベル
                 label: "DevOps/その他ツール",
                 //背景色
