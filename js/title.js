@@ -5,9 +5,8 @@ const keyframes = {
     translate: ['0 100px', 0],
 };
 const options = {
-    duration: 2000,
+    duration: 8000,
     easing: 'ease',
-    iteration: Infinity,
 };
 
 heading.animate(keyframes, options);
