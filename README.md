@@ -11,3 +11,7 @@
 ## 構成図
 
 ![chart (1)](https://github.com/tatsu-narita/my-portfolio/assets/135838655/837132f5-c977-4167-b215-d5020b1a220a)
+
+## 特徴
+
+製作者の情報をキャッチしやすくするためにwebページの作りはとてもシンプルにしています。
